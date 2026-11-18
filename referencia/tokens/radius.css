@@ -1,0 +1,5 @@
+/* ERIC · raios. Pílula para selos/contadores; 8 para controles; 10–12 para cards. */
+:root {
+  --e-r-xs: 4px; --e-r-sm: 6px; --e-r-md: 8px; --e-r-lg: 10px; --e-r-xl: 12px; --e-r-2xl: 14px; --e-r-3xl: 18px; --e-r-full: 999px;
+  --e-r-control: 8px; --e-r-card: 12px; --e-r-dialog: 14px; --e-r-login: 18px; --e-r-m-control: 14px; --e-r-m-card: 16px;
+}

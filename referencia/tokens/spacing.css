@@ -1,0 +1,8 @@
+/* ERIC · espaço. Base 4 px; os passos usados nos protótipos. */
+:root {
+  --e-sp-1: 4px; --e-sp-1h: 6px; --e-sp-2: 8px; --e-sp-2h: 10px; --e-sp-3: 12px; --e-sp-3h: 14px;
+  --e-sp-4: 16px; --e-sp-4h: 18px; --e-sp-5: 20px; --e-sp-6: 24px; --e-sp-7: 28px; --e-sp-8: 32px; --e-sp-10: 40px; --e-sp-12: 48px; --e-sp-16: 64px;
+  --e-gap-bloco: 16px;     /* entre blocos da tela */
+  --e-pad-card: 16px;      /* padding de card */
+  --e-pad-main: 24px 28px 32px;
+}

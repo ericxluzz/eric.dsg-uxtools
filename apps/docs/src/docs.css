@@ -1,0 +1,92 @@
+html,
+body {
+  margin: 0;
+  background: var(--c-page);
+  color: var(--c-text);
+  font-family: var(--e-font);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.docs-shell {
+  display: flex;
+  min-height: 100vh;
+}
+
+.docs-nav {
+  width: 220px;
+  flex: 0 0 220px;
+  background: var(--c-sidebar);
+  border-right: 1px solid var(--c-border);
+  padding: 16px;
+}
+
+.docs-nav button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  height: 34px;
+  padding: 0 10px;
+  margin-bottom: 2px;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--c-text);
+  font-family: var(--e-font);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.docs-nav button[aria-current="page"] {
+  background: var(--c-soft);
+  color: var(--c-strong);
+  font-weight: 600;
+}
+
+.docs-nav button:focus-visible,
+.docs-main button:focus-visible {
+  outline: 2px solid var(--c-focus);
+  outline-offset: 2px;
+}
+
+.docs-main {
+  flex: 1;
+  min-width: 0;
+  padding: 24px 28px 32px;
+}
+
+.docs-swatch-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.docs-swatch {
+  border: 1px solid var(--c-border);
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--c-surface);
+}
+
+.docs-swatch-color {
+  height: 56px;
+}
+
+.docs-swatch-meta {
+  padding: 8px 10px;
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.docs-swatch-hex {
+  color: var(--c-text-2);
+  font-family: var(--e-font-mono);
+}

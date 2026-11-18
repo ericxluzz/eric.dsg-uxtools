@@ -1,0 +1,23 @@
+name: eric_flutter
+description: ERIC Design System — tema e widgets para os apps Flutter (Conecta+).
+version: 1.2.0
+publish_to: "none"
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  lucide_icons: ^0.257.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  golden_toolkit: ^0.15.0
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

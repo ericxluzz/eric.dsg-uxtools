@@ -1,0 +1,21 @@
+{
+  "name": "@eric/tokens",
+  "version": "1.2.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/tokens.json",
+  "exports": {
+    "./css": "./dist/css/tokens.css",
+    "./json": "./dist/tokens.json",
+    "./tailwind": "./dist/tailwind.preset.js",
+    "./dart": "./dist/eric_tokens.dart"
+  },
+  "scripts": {
+    "build": "node scripts/build-tokens.mjs",
+    "test": "vitest run",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "vitest": "^2.1.3"
+  }
+}

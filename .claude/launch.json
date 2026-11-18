@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "eric-docs",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["--filter", "@eric/docs", "dev"],
+      "port": 5173
+    }
+  ]
+}

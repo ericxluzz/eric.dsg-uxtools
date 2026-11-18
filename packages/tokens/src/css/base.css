@@ -1,0 +1,10 @@
+/* ERIC · base. */
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; background: var(--c-page); color: var(--c-text); font-family: var(--e-font); font-size: var(--e-fs-body); line-height: var(--e-lh-body); -webkit-font-smoothing: antialiased; }
+button, input, select, textarea { font-family: inherit; color: inherit; font-size: inherit; }
+button { cursor: pointer; }
+a { color: var(--c-link); } a:hover { color: var(--c-strong); }
+:focus-visible { outline: 2px solid var(--c-focus); outline-offset: 2px; }
+c-icon { display: inline-flex; flex: none; line-height: 0; }
+.e-sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+.e-nowrap { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }

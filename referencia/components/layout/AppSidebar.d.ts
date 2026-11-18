@@ -1,0 +1,3 @@
+/** @startingPoint section="Modelos" subtitle="Sidebar padrão: marca, navegação, rodapé com usuário" viewport="700x560" */
+export interface AppSidebarProps { logo?: string; name?: string; sub?: string; navTitle?: string; items: { value: string; label: string; icon: string; count?: number }[]; value?: string; onChange?: (v: string) => void; footerItems?: { label: string; icon: string; onClick?: () => void }[]; user?: { name: string; role: string; photo?: string; items?: { label: string; icon: string }[] }; onSair?: () => void; }
+export declare function AppSidebar(props: AppSidebarProps): JSX.Element;

@@ -1,0 +1,20 @@
+/* ERIC · tipografia. Poppins em tudo; ui-monospace só para protocolo. */
+:root {
+  --e-font: "Poppins", system-ui, sans-serif;
+  --e-font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --e-w-regular: 400; --e-w-medium: 500; --e-w-semibold: 600; --e-w-bold: 700;
+  /* escala compacta (painel/portal) */
+  --e-fs-display: 28px;  --e-lh-display: 36px;   /* título de login / portal */
+  --e-fs-h1: 22px;       --e-lh-h1: 28px;        /* título de tela */
+  --e-fs-h2: 18px;       --e-lh-h2: 26px;        /* título de drawer/diálogo */
+  --e-fs-h3: 15px;       --e-lh-h3: 22px;        /* título de card */
+  --e-fs-body: 14px;     --e-lh-body: 20px;
+  --e-fs-body-sm: 13px;  --e-lh-body-sm: 18px;   /* tabela, menu */
+  --e-fs-meta: 12px;     --e-lh-meta: 16px;      /* meta, selos, ajuda */
+  --e-fs-caption: 11px;  --e-lh-caption: 15px;   /* cabeçalho de tabela, eyebrow */
+  --e-fs-kpi: 24px;      --e-lh-kpi: 28px;
+  --e-fs-protocolo: 22px;
+  --e-ls-caps: .08em;    /* MAIÚSCULAS: cabeçalho de tabela, eyebrow */
+  /* mobile (PWA/app) */
+  --e-fs-m-h1: 24px; --e-fs-m-body: 15px; --e-fs-m-input: 16px; /* 16px evita zoom no iOS */
+}
