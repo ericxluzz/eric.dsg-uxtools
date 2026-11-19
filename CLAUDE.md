@@ -12,4 +12,4 @@
 - Gráficos: título = conclusão, "Ver dados" com tabela, role="img" + resumo, sem pizza, eixo em 0.
 - Datas dd/mm/aaaa, moeda R$ 1.250,00, separador " · ". CPF e telefone mascarados.
 - Exemplo de dados: Amajari · RR, protocolo AMA-2026-000000.
-- Referência visual: `design_handoff_eric_design_system/referencia/Eric Design System.dc.html`.
+- Referência visual: site de docs (`apps/docs`, rode `pnpm --filter @eric/docs dev`).
