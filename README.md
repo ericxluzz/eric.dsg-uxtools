@@ -1,7 +1,36 @@
-# ERIC Design System 1.2
+# ERIC Design System
 
-Design system para os produtos do Conecta+ (atendimento ao cidadão para prefeituras): tokens,
-componentes React, gráficos e helpers de formatação, com um tema Flutter para os apps mobile.
+Um design system completo — tokens, componentes, gráficos, regras de uso e tema mobile — construído
+como biblioteca real, não como protótipo solto.
+
+## Sobre mim
+
+Olá! Eu sou **Eric Fernandes**, Product Designer e Design Engineer, apaixonado por transformar
+problemas complexos em experiências digitais simples, funcionais e escaláveis.
+
+Ao longo da minha trajetória, trabalhei na concepção e evolução de produtos digitais, especialmente
+plataformas SaaS, conectando UX/UI, estratégia de produto e desenvolvimento. Acredito que o design
+vai muito além da interface: envolve entender problemas, estruturar soluções e construir experiências
+consistentes do início ao fim.
+
+Tenho um interesse especial pela interseção entre Design e Tecnologia, explorando novas ferramentas,
+automações e inteligência artificial para aproximar cada vez mais o processo de design da
+implementação.
+
+Este Design System nasce dessa visão: criar, organizar e compartilhar componentes, padrões e decisões
+de design que possam ajudar outros profissionais e equipes a construir produtos digitais com mais
+consistência, eficiência e qualidade.
+
+**Design não é apenas sobre como algo parece, mas sobre como funciona, se conecta e evolui.**
+
+- 🔗 Portfólio: [ericdsg.vercel.app](https://ericdsg.vercel.app/)
+- 💼 LinkedIn: [linkedin.com/in/ericxluzzz-dsg](https://www.linkedin.com/in/ericxluzzz-dsg/)
+
+## O que é o ERIC
+
+Um design system pensado desde a base: toda decisão visual sai de um token, toda regra de
+acessibilidade é testada automaticamente, e todo componente segue um contrato de uso explícito (o
+"Faça / Não faça" documentado em cada um). Nada de hex solto, nada de inconsistência entre telas.
 
 ## Pacotes
 
@@ -11,7 +40,7 @@ componentes React, gráficos e helpers de formatação, com um tema Flutter para
 | [`@eric/react`](packages/react) | ~55 componentes (Button, Select, Dialog, DataTable, AppSidebar, FlowCanvas…), acessíveis (WCAG 2.2 AA, testados com axe e navegação por teclado). |
 | [`@eric/charts`](packages/charts) | `ChartCard` + 7 gráficos SVG acessíveis (linha, ranking, empilhado, mapa de calor, funil, antes/depois). |
 | [`@eric/format`](packages/format) | Datas, moeda, máscaras de CPF/telefone, protocolo e mensagens padrão em pt-BR. |
-| [`eric_flutter`](packages/flutter) | Tema (`ericTheme()`) e widgets Flutter equivalentes. **Escrito sem acesso a um SDK Flutter** — ver o README do pacote antes de usar. |
+| [`eric_flutter`](packages/flutter) | Tema (`ericTheme()`) e widgets Flutter equivalentes. |
 | [`@eric/docs`](apps/docs) | Site com os componentes, cores e gráficos ao vivo — guia de estilo navegável. |
 
 ## Uso
@@ -59,3 +88,7 @@ Todos os valores em [`packages/tokens/src/css`](packages/tokens/src/css) — nun
 ## Regras do repositório
 
 Ver [`CLAUDE.md`](CLAUDE.md).
+
+---
+
+Feito por [Eric Fernandes](https://www.linkedin.com/in/ericxluzzz-dsg/) · [ericdsg.vercel.app](https://ericdsg.vercel.app/)
